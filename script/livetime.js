@@ -17,3 +17,32 @@ function updatedatename (){
     document.getElementById("datename").innerText = `${datename}`
 }
 updatedatename();
+
+
+
+
+// time calculation
+
+
+
+function updateClock () {
+   let time = new Date();
+   let  hours = time.getHours();
+   let  minutes = time.getMinutes();
+   let seconds = time.getSeconds();
+   let  ampm = hours >= 12 ? 'pm' : 'am';
+
+   hours = hours % 12 || 12 ;
+   minutes = minutes < 10 ? '0' + minutes : minutes;
+   seconds = seconds < 10 ?  '0' + seconds : seconds ;
+
+  const realtime = document.getElementById("clock")
+
+     let settime = `${hours}:${minutes}:${seconds} ${ampm}`;
+        // console.log (settime)
+    return (settime);
+  
+
+}
+
+// updateClock();
