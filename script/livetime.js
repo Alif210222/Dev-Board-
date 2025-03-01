@@ -4,7 +4,7 @@
     const day = date.getDate();
     const month = date.toLocaleString("default" , {month : 'long'});
     const year = date.getFullYear();
-    document.getElementById("liveDate").innerText = `${month} ${day} ${year}`
+    document.getElementById("liveDate").innerText = `${day} ${month}  ${year}`
 }
 updatedate();
 
