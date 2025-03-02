@@ -1,3 +1,7 @@
+// In this js file task number count 
+
+//  box -1
+
 document.getElementById("complete-btn-1").addEventListener("click" , function(){
     alert("Board Update Successfully");
      
@@ -21,6 +25,8 @@ const massagebox= document.getElementById("massage_notification")
       `
       massagebox.appendChild(div)
 })
+
+
 
 // box-2
 
@@ -50,6 +56,7 @@ div.classList.add("bg-[#d1d1e2]","border", "rounded-lg","p-2","mb-2","mt-3")
 
 })
 
+
 // box 3
 
 document.getElementById("complete-btn-3").addEventListener("click" , function(){
@@ -75,6 +82,7 @@ const massagebox= document.getElementById("massage_notification")
       `
       massagebox.appendChild(div)
 })
+
 
 
 // box-4
@@ -105,6 +113,7 @@ div.classList.add("bg-[#d1d1e2]","border", "rounded-lg","p-2","mb-2","mt-3")
 })
 
 
+
 // box-5
 document.getElementById("complete-btn-5").addEventListener("click" , function(){
     alert("Board Update Successfully");
@@ -129,6 +138,7 @@ div.classList.add("bg-[#d1d1e2]","border", "rounded-lg","p-2","mb-2","mt-3")
  `
  massagebox.appendChild(div)
 })
+
 
 
 // box-6

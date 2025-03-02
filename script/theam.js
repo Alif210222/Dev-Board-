@@ -27,6 +27,6 @@
 
  })
 
-//  theam(["bg-red-200" , "bg-blue-200" , "bg-green-200"]);
+
 
 
